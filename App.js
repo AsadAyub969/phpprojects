@@ -8,9 +8,9 @@ import { setNavigation } from './src/navigationRefs'
 
 const navigator = createStackNavigator(
   {
-    Order: OrderList,
+    Order: OrderList,    
     Home: HomeScreen,
-    Map: MapScreen
+    Map: MapScreen,
   },
   {
     initialRouteName: 'Map',
