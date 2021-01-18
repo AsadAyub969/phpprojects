@@ -13,7 +13,7 @@ const navigator = createStackNavigator(
     Map: MapScreen,
   },
   {
-    initialRouteName: 'Map',
+    initialRouteName: 'Home',
     defaultNavigationOptions: {
       title: 'Livrito'
     },
